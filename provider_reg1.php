@@ -9,7 +9,7 @@
 <h2>What do you do?</h2>
 
 <?php
-@ $db = new mysqli('localhost','satishb','Dunnhumby890','myservicesdb');
+@ $db = new mysqli('localhost','satishb','mypassword','myservicesdb');
 
 if (mysqli_connect_errno())
 {

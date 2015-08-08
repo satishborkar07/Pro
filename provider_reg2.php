@@ -11,7 +11,7 @@
 
 $pro_group= $_POST['pro_group'];
 //echo $pro_group;
-@ $db = new mysqli('localhost','satishb','Dunnhumby890','myservicesdb');
+@ $db = new mysqli('localhost','satishb','mypassword','myservicesdb');
 
 if (mysqli_connect_errno())
 {
